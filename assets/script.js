@@ -210,8 +210,8 @@
             })
         })
     }
-
     let apiChar = fetchCharacter();
+
     let image = "";
     document.querySelector("#inputImg").addEventListener("change", (event) => {
         const fileList = event.target.files[0];

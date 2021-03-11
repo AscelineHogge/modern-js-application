@@ -1,15 +1,17 @@
 {
-  "name": "@becode/js-intro",
+  "name": "src",
   "version": "1.0.0",
-  "private": true,
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "npx seve -e '*.json,*.md,node_modules,_shared' -p 8000 -i .",
-    "api": "npx json-server ./_shared/api.json"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
   },
-  "dependencies": {
-    "json-server": "^0.16.1"
-  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "seve": "^0.10.0"
+    "parcel-bundler": "^1.12.4"
   }
 }
